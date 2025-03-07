@@ -1,9 +1,86 @@
-.bg-blue {
-    background-color: blue;
+/* General Service Card Styling */
+.service-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
 }
-.text-red {
-    color: red;
+
+/* ✅ Variation 1 - Centered Text with Gradient Background */
+.service-card-s1 {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 2rem;
 }
-.p-4 {
-    padding: 16px;
+
+/* ✅ Variation 2 - Left Aligned, Borderless, with Shadow */
+.service-card-s2 {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 1.5rem;
+}
+
+/* ✅ Variation 3 - Right Aligned with Border */
+.service-card-s3 {
+    background: #f9f9f9;
+    border-left: 5px solid #007bff;
+    text-align: right;
+    padding: 1.8rem;
+}
+
+/* ✅ Variation 4 - Flexbox with Icon & Content Side by Side */
+.service-card-s4 {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    gap: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Variation 5 - Blurry Glass Effect */
+.service-card-s5 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Variation 6 - Hover Scale Effect */
+.service-card-s6 {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.service-card-s6:hover {
+    transform: scale(1.05);
+}
+
+/* ✅ Variation 7 - Full Width Borderless */
+.service-card-s7 {
+    background: #f8f9fa;
+    text-align: left;
+    padding: 2rem;
+    width: 100%;
+}
+
+/* ✅ Variation 8 - Rotating Hover Effect */
+.service-card-s8 {
+    background: linear-gradient(45deg, #ff6b6b, #f94c4c);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.service-card-s8:hover {
+    transform: rotate(2deg);
 }
