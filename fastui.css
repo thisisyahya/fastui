@@ -3,6 +3,9 @@
     padding: 1.5rem;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
+    max-width:400px;
+    min-width:280px;
+    width:40vw;
 }
 
 /* ✅ Variation 1 - Centered Text with Gradient Background */
